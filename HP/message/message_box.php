@@ -7,6 +7,11 @@
 		<meta charset = "UTF-8">
 		<title>쪽지함</title>
 		
+        <script src="./js/jquery-3.1.1.min.js"></script> 
+        <script src="./js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+        
 		<link rel = "stylesheet" href = "../css/common.css">
 		<link rel = "stylesheet" href = "../css/message_box.css">
 	</head>
@@ -107,9 +112,9 @@
 					</ul>
 					
 					<ul class = "buttons">
-						<li><button onclick="location.href='./message_box.php?mode=rv'">수신 쪽지함</button></li>
-                        <li><button onclick="location.href='./message_box.php?mode=send'">송신 쪽지함</button></li>
-                        <li><button onclick="location.href='./message_form.php?mode=rv'">쪽지 보내기</button></li>
+						<li><button class="btn btn-primary" onclick="location.href='./message_box.php?mode=rv'">수신 쪽지함</button></li>
+                        <li><button class="btn btn-primary" onclick="location.href='./message_box.php?mode=send'">송신 쪽지함</button></li>
+                        <li><button class="btn btn-primary" onclick="location.href='./message_form.php?mode=rv'">쪽지 보내기</button></li>
                     </ul>
 				</div>
 			</div>
