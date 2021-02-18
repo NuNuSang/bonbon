@@ -1,0 +1,33 @@
+#admin_box{ width: 800px; margin: 0 auto;}
+ 
+/* 제목영역 */
+#admin_box h3{margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px;}
+ 
+/* 목록보기 게시판 표형태 스타일 */
+/* 각 줄마다 아래 경계선 */
+#member_list li{padding: 10px 0; border-bottom: solid 1px #dddddd;}
+ 
+/* 각 col들의 가로사이즈 조절하려면 span요소를 inline-block으로 */
+#member_list span{display: inline-block; text-align: center;}
+ 
+/* 각 col들 사이즈 */
+#member_list .col1{ width: 80px;}
+#member_list .col2{ width: 100px;}
+#member_list .col3{ width: 100px;}
+#member_list .col4{ width: 80px;}
+#member_list .col5{ width: 80px;}
+#member_list .col6{ width: 180px;}
+#member_list .col7{ width: 60px;}
+#member_list .col8{ width: 60px;}
+
+#board_list li{padding: 10px 0; border-bottom: solid 1px #dddddd;}
+ 
+/* 각 col들의 가로사이즈 조절하려면 span요소를 inline-block으로 */
+#board_list span{display: inline-block; text-align: center;}
+ 
+/* 각 col들 사이즈 */
+#board_list .col1{ width: 60px;}
+#board_list .col2{ width: 80px;}
+#board_list .col3{ width: 100px;}
+#board_list .col4{ width: 410px;}
+#board_list .col5{ width: 100px;}

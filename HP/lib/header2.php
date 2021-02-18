@@ -12,7 +12,7 @@
 
 <div id = "top">
 	<!-- 로고 영역 -->
-    <h3><a href="./index.php"><img src = "./img/imsi.jpg"></a></h3>
+    <h3><a href="../index.php"><img src = "../img/imsi.jpg"></a></h3>
 	<!--<h3><a href="../index.php">레시피</a></h3>-->
 	
 	<!--회원가입/로그인 버튼 표시 영역-->
