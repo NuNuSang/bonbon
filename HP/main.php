@@ -15,19 +15,19 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="carousel-img" style="width: 100%" height="650px" src="./img/valentine.jpg" alt="First slide">
+            <img class="carousel-img" src="./img/valentine.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <p class="subtitle"> Valentine Day Recipe</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="carousel-img" style="width: 100%" height="650px" src="./img/white.jpg" alt="Second slide">
+            <img class="carousel-img" src="./img/white.jpg" alt="Second slide">
       		 <div class="carousel-caption d-none d-md-block">
                 <p class="subtitle"> White Day Recipe</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="carousel-img" style="width: 100%" height="650px" src="./img/christ1.jpg" alt="Third slide">
+            <img class="carousel-img" src="./img/christ1.jpg" alt="Third slide">
         	 <div class="carousel-caption d-none d-md-block">
                 <p class="subtitle"> Christmas Day Recipe</p>
             </div>
