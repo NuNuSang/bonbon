@@ -1,11 +1,33 @@
-#wrapper{ height: auto; position: absolute; top: 10px; left: 10px; width: 1400px; margin-top: 176px; margin-bottom: 20px; }
+#wrapper {
 
-#menu_content{ width: 1000px; float: left; padding: 10px; margin-left: 90px;}
+    width: 1300px;
+    margin: 0 auto;
+    overflow:hidden;
+    margin-top: 30px;
+}
 
-#sidebar{ width: 200px; float: left; padding: 10px; margin-left: 10px; }
+#menu_content {
+    width: 1000px;
+    float: left;
+    height: auto;
+    padding: 10px;
+    margin-left: 50px;
+}
 
-#recipe_menu li{border-bottom: solid 1px #dfb7b7; padding: 7px;}
+#sidebar {
+    width: 200px;
+    float: left;
+    padding: 10px;
 
-.product{ width: 220px; margin-bottom: 10px; }
+}
 
-#ssibal{ width: 1518px; margin-top: 670px; background-color: #dfb7b7; }
+#recipe_menu li {
+    border-bottom: solid 1px #dfb7b7;
+    padding: 7px;
+}
+
+.product {
+    width: 220px;
+    margin-bottom: 10px;
+}
+

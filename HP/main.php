@@ -51,7 +51,31 @@
 <div id = "main_content">
 	<article id = "latest">
 		<h4>최신 게시글</h4>
-		<ul></ul>
+		<ul>
+			<?php
+				include "./lib/dbconn.php";
+				$sql = "SELECT * FROM board ORDER BY boardID DESC LIMIT 5;";
+				$result = mysqli_query($conn,$sql);
+				
+				while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+					$boardID = $row['boardID'];
+					$title = $row['title'];
+					$hit = $row['boardHit'];
+					$datetime = $row['boardDatetime'];
+			?>
+			
+			<li>
+				<span class = "col1">
+					<a href = "./board/boardView.php?boardID=<?=$boardID?>&hit=<?=($hit+1)?>"><?=$title?></a>
+				</span>
+				<span class = "col2"><?=$datetime?></span>
+			</li>
+			
+			<?php
+				}
+				mysqli_close($conn);
+			?>
+		</ul>
 	</article>
 	
 	<!-- 포인트 랭킹 목록 -->

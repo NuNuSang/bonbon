@@ -20,7 +20,7 @@ CREATE TABLE recipe (
     recipeName varchar(30) not null,
     recipeDatetime date,
     recipeHit int,
-    Incredient text not null,
+    Ingredient text not null,
     userID varchar(20) not null,
     manual1 text,
     manualImage1 blob,

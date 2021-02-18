@@ -78,7 +78,7 @@
 							<div class = "col2"><input type = "text" name = "id"></div>
 							<!-- id줄만 존재하는 칸 -->
 							<div class="col3">
-								<a href="#"><img src = "../img/check_id.gif" onclick = "checkId()"></a>
+								<a href="#"><button type = "button" onclick = "checkId()">중복확인</button></a>
 							</div>
 						</div>
 						<div class = "form">
@@ -109,8 +109,8 @@
 						<!-- Javascript를 이용해서 submit()해보기 -->
 						<div class = "bottom_line"></div>
 						<div class = "buttons">
-							<img src = "../img/button_save.gif" style = "cursor:pointer" onclick = "submitForm()">&nbsp;
-							<img src = "../img/button_reset.gif" style = "cursor:pointer" onclick = "resetForm()">
+							<button type = "button" style = "cursor:pointer" onclick = "submitForm()">가입</button>&nbsp;
+							<button type = "button" style = "cursor:pointer" onclick = "resetForm()">리셋</button>
 						</div>
 					</form>
 				</div>	 
