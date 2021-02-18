@@ -23,7 +23,7 @@
 								<li><input type="password" name="pass" placeholder="비밀번호"></li>
 							</ul>
 							<div id = "login_btn">
-								<input type = "image" src = "../img/login.png">
+								<button type="submit">로그인</button>
 							</div>
 						</form>
 					</div>
