@@ -1,0 +1,43 @@
+
+#viewRecipe {
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+#viewContent li:nth-child(1) {
+    padding: 15px;
+    border-bottom: solid 1px #aaaaaa;
+}
+
+#viewContent {
+    display: inline;
+}
+
+#viewContent .col2 {
+    float: right;
+}
+
+#viewContent li:nth-child(2) {
+    padding: 15px 15px 80px 15px;
+    
+    border-bottom: solid 1px #aaaaaa;
+}
+
+
+#viewContent  button {
+    cursor: pointer;
+    font-size: 12px;
+    border: 0;
+    outline: 0;
+    background-color: #ffffff;
+}
+#viewContent button:hover  {
+    text-decoration: underline
+}
+
+
+#viewPost #boardComment {
+    margin-bottom: 50px;
+    
+}

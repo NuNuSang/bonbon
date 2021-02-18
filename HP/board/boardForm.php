@@ -122,9 +122,6 @@
     </section>
 
 
-    }
-
-
 
 
     <footer>
