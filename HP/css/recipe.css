@@ -30,4 +30,12 @@
     width: 220px;
     margin-bottom: 10px;
 }
-
+#writeRecipeBtn button{
+    
+    
+    float:right;
+    margin: 10px 190px 10px 0px;
+    margin-bottom: 30px;
+    
+    
+}

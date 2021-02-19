@@ -39,6 +39,7 @@ session_start();
                     $ingredient  = $row['ingredient'];
                     $recipeHit = $row['recipeHit'];
                     $recipeWriter = $row['userID'];
+                    $intro = $row['intro'];
                     $i = 1;
                     $count = 0;
 
@@ -48,6 +49,7 @@ session_start();
                         if($row["manual$i"]!=null){
 
                             ${"manual".$i} = $row["manual$i"];
+                            ${"manualImage".$i} = $row["manualImage$i"];
                             $count++;
                             $i++;
 
@@ -74,10 +76,12 @@ session_start();
                     </li>
                     <li>
                       <p>재료: <?=$ingredient?></p>
-                        <p> 레시피 </p>
+                        <p> 소개: <?=$intro?> </p>
                        <!--메뉴얼 출력-->
                         <?php 
                             for($k=1; $k <= $count; $k++){
+                                
+                                echo '<image width="200px" height="auto"src ="'. ${"manualImage".$k}.'">';
                                 
                                 echo '<p>'.$k.' - '.${"manual".$k}.'</p>';                                
                             }
@@ -90,14 +94,14 @@ session_start();
             </div>
             
             <?php }
-                        else {
+                        /*else {
                                 
                                 echo '<script> alert("잘못된 접근입니다.");
                                 history.back();
                                 </script>';
                             }
             
-            
+            */
             ?>
         </div>
 

@@ -36,6 +36,7 @@
                                 <span class="col2"><?=$userid?></span>
                                 <input type="hidden" value="<?=$userid?>" name="userid">
                                 <input type="hidden" value="<?=$mode?>" name="mode">
+                    
                             </li>
                             <li>
                                 <span class="col1">제목 : </span>
