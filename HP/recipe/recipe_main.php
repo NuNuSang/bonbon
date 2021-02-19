@@ -48,26 +48,33 @@
                                 $recipeID= $row['recipeID'];
                                 $recipeName= $row['recipeName'];
                                 $writerID = $row['userID'];
+                                $repImage = $row['repImage'];
                                 ?>
                         <div class="col-xs-4 product">
-                            <img src="../img/imsichoco.jpg" width="150">
+                            <img src="<?=$repImage?>" width="150px" height="150px">
                             <p style='margin-top: 10px;'><a href='./recipeView.php?recipeID=<?=$recipeID?>'><?=$recipeName?></a></p>
                             <p><?=$writerID?></p>
                         </div>
 
                         <?php
                                 }
-                            } else {
+                            } /*else {
                                 
                                 echo '<script> alert("잘못된 접근입니다.");
                                 history.back();
                                 </script>';
-                            }
+                            }*/
                         ?>
 
 
                     </div>
 
+                </div>
+                
+                <div id="writeRecipeBtn">
+
+                    <button type="button" onclick="location.href='./recipeForm.php?mode=0'">레시피 작성</button>
+                    
                 </div>
             </div>
         </div>
