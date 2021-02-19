@@ -61,12 +61,12 @@ if ( $recipeName != null ) {
                     mysqli_query( $conn, $sql );
                     mysqli_close( $conn );
     
-     /*echo ("
+     echo ("
                     <script>
                         location.href = './recipe_main.php?category=1';
                     </script>
                     ");
-            */
+            
                 
     }else {
     echo( "
