@@ -57,10 +57,10 @@
 					
 					<!--버튼들~~-->
 					<ul class = "buttons">
-						<li><button onclick = "location.href = './message_box.php?mode=rv'">수신 쪽지함</button></li>
-						<li><button onclick = "location.href = './message_box.php?mode=send'">송신 쪽지함</button></li>
+						<li><button class="btn btn-primary" onclick = "location.href = './message_box.php?mode=rv'">수신 쪽지함</button></li>
+						<li><button class="btn btn-primary" onclick = "location.href = './message_box.php?mode=send'">송신 쪽지함</button></li>
 						
-						<li><button onclick = "location.href = './message_delete.php?num=<?=$num?>& mode=<?=$mode?>'">삭제</button></li>
+						<li><button class="btn btn-primary" onclick = "location.href = './message_delete.php?num=<?=$num?>& mode=<?=$mode?>'">삭제</button></li>
 					</ul>
 				</div>
 			</div>

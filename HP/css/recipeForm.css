@@ -1,0 +1,151 @@
+#writeRecipe {
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+#writeRecipe h3 {
+    margin-top: 30px;
+    padding: 10px;
+    border-bottom: solid 2px #516e7f;
+    font-size: 20px;
+}
+
+
+#writePost span {
+    display: inline-block;
+}
+
+#writePost .col1 {
+    width: 150px;
+}
+
+#writePost li {
+    border-bottom: solid 1px #dddddd;
+    padding: 10px;
+}
+
+#writePost input {
+    width: 500px;
+    height: 25px;
+}
+
+#writePost textarea {
+    width: 500px;
+    height: 150px;
+}
+
+#writePost #textarea {
+    position: relative;
+    height: 158px;
+}
+
+#writePost #textarea .col1 {
+    position: absolute;
+    top: 10px;
+}
+
+#writePost #textarea .col2 {
+    position: absolute;
+    left: 166px;
+}
+
+
+#submitBtn {
+    
+    text-align: center;
+    margin: 0px 40px 10px 0px;
+}
+#submitBtn button {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+
+#submitBtn input[type="submit"] {
+
+    cursor: pointer;
+    height: 30px;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+
+
+
+
+#repImage {
+    
+  
+ 
+}
+
+
+#writeManual ul li, #repImage ul li {
+    
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+#writeManual ul, #repImage ul {
+    
+    border-bottom: solid 1px #dddddd;
+
+}
+
+
+
+
+#writeManual .addImage, #repImage .completeImage{
+    float:left;
+    height: 125px;
+    width: 140px;
+    margin-right: 5px;
+}
+#writeManual input[type="file"], #repImage input[type="file"]{
+    width: 140px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+
+#addBtn {
+    
+    text-align: center;
+    border-bottom: solid 1px #dddddd;
+}
+#addBtn .addManual{
+    height: 30px;
+    width: 70px;
+    margin: 5px 40px 20px 0px ;
+    
+}
+
+
+
+
+#writeManual textarea{
+  
+    height: 145px;
+    width: 510px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,15 +6,16 @@
 
 
 #viewPost h3 {
+    color: #575347;
     margin-top: 30px;
     padding: 10px;
-    border-bottom: solid 2px #516e7f;
+    border-bottom: solid 2px #7e4a35;
     font-size: 20px;
 }
 
 #viewContent li:nth-child(1) {
     padding: 15px;
-    border-bottom: solid 1px #aaaaaa;
+    border-bottom: solid 1px #dec8cb;
 }
 
 #viewContent {
@@ -28,7 +29,7 @@
 #viewContent li:nth-child(2) {
     padding: 15px 15px 80px 15px;
     
-    border-bottom: solid 1px #aaaaaa;
+    border-bottom: solid 1px #7e4a35;
 }
 
 

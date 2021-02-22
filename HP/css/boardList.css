@@ -7,13 +7,15 @@
 #boardList h3 {
     margin-top: 30px;
     padding: 10px;
-    border-bottom: solid 2px #516e7f;
+    border-bottom: solid 2px #7e4a35;
     font-size: 20px;
+    color: #575347;
 }
 
 #post li {
     padding: 10px;
-    border-bottom: solid 1px #dddddd;
+    border-bottom: solid 1px #dec8cb;
+    color: #575347;
 }
 
 #post li:nth-child(1) {
@@ -67,3 +69,6 @@
     padding: 5px;
     cursor: pointer;
 }
+
+.btn { border-radius: 3px; width: 65px; background-color: #dfb7b7; border: 0; outline: 0; color: #ffffff; transition: all 0.9s, color 0.3;}
+.btn:hover{ background-color: #e0a4a4;  border: none; color: #ffffff; } 

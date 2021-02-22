@@ -40,7 +40,7 @@
 	<ul>
 		<li><a href="../index.php">HOME</a></li>
 		<li><a href="../message/message_form.php">쪽지</a></li>
-		<li><a href="../index.php">레시피</a></li>
+		<li><a href="../recipe/recipe_main.php?category=1">레시피</a></li>
 		<li><a href="../board/boardList.php">게시판</a></li>
 	</ul>
 </div>
