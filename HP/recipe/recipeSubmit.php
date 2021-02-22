@@ -59,6 +59,17 @@ if ( $recipeName != null ) {
                 $r = move_uploaded_file($_FILES["addImageFile$i"]['tmp_name'],${"addImageFile$i"});  
             }
                     mysqli_query( $conn, $sql );
+
+					$point_up = 20;
+					$sql = "SELECT point from user WHERE id = '$userid'";
+					$result = mysqli_query($conn,$sql);
+					$row = mysqli_fetch_array($result);
+					$new_point = $row["point"] + $point_up;
+					
+					$sql = "UPDATE user SET point = $new_point WHERE id = '$userid'";
+					
+					mysqli_query($conn,$sql);
+
                     mysqli_close( $conn );
     
      echo ("
