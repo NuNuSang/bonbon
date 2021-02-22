@@ -81,6 +81,31 @@
 	<!-- 포인트 랭킹 목록 -->
 	<article id = "point_rank">
 		<h4>포인트 랭킹</h4>
-		<ul></ul>
+		<ul>
+			<?php
+				include "./lib/dbconn.php";
+				$rank = 1;
+				$sql = "SELECT * FROM user ORDER BY point DESC LIMIT 5;";
+				$result = mysqli_query($conn,$sql);
+				
+				while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+					$name = $row['name'];
+					$id = $row['id'];
+					$point = $row['point'];
+			?>
+			
+			<li>
+				<span class = "col1"><?=$rank?></span>
+				<span class = "col2"><?=$name?></span>
+				<span class = "col3"><?=$id?></span>
+				<span class = "col4"><?=$point?></span>
+			</li>
+			
+			<?php
+					$rank++;
+				}
+				mysqli_close($conn);
+			?>
+		</ul>
 	</article>
 </div>
