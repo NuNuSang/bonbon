@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+$userid = $_SESSION["userid"];
 error_reporting(E_ALL);
 
 ini_set("display_errors", 1);
@@ -19,6 +20,16 @@ ini_set("display_errors", 1);
         $sql = "INSERT INTO boardcomment(commentContent, commentDatetime, boardID, userID) VALUES('$content','$datetime','$boardID','$userID');";
 
         mysqli_query($conn,$sql);
+		
+		$point_up = 5;
+		$sql = "SELECT point from user WHERE id = '$userid'";
+		$result = mysqli_query($conn,$sql);
+		$row = mysqli_fetch_array($result);
+		$new_point = $row["point"] + $point_up;
+					
+        $sql = "UPDATE user SET point = $new_point WHERE id = '$userid'";					
+		mysqli_query($conn,$sql);
+		
         mysqli_close($conn);
 
         echo ("<script>
