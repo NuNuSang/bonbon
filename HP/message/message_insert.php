@@ -1,4 +1,7 @@
 <?php
+	session_start();
+	$userid = $_SESSION["userid"];
+	
 	$send_id = $_GET['send_id'];
 	
 	$rv_id = $_POST['rv_id']; //수신자 아이디
@@ -17,6 +20,16 @@
 		$sql= "INSERT INTO message(send_id, rv_id, subject, content, regist_day)";
         $sql.="VALUES('$send_id','$rv_id','$subject','$content','$regist_day')";
         mysqli_query($conn, $sql);
+		
+		$point_up = 1;
+		$sql = "SELECT point from user WHERE id = '$userid'";
+		$result = mysqli_query($conn,$sql);
+		$row = mysqli_fetch_array($result);
+		$new_point = $row["point"] + $point_up;
+					
+        $sql = "UPDATE user SET point = $new_point WHERE id = '$userid'";
+					
+		mysqli_query($conn,$sql);
     }else{
         echo "
             <script>
