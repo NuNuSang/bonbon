@@ -4,6 +4,11 @@
 <!DOCTYPE html>
 <html>
 
+<script src="./js/jquery-3.1.1.min.js"></script> 
+<script src="./js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="./css/bootstrap.min.css"> 
+<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+
 <head>
     <meta charset="UTF-8">
     <title>게시글 작성</title>
@@ -47,7 +52,7 @@
                                 <span class="col2"><textarea name="content"></textarea></span>
                             </li>
                         </ul>
-                        <input type="submit" value="등록하기">
+                        <input type="submit" class="btn btn-primary" value="등록하기">
 
 
                     </div>

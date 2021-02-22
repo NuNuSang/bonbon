@@ -7,6 +7,11 @@
 		<meta charset = "UTF-8">
 		<title>게시판</title>
 		
+        <script src="./js/jquery-3.1.1.min.js"></script> 
+        <script src="./js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+        
 		<link rel = "stylesheet" href = "../css/common.css">
 		<link rel = "stylesheet" href = "../css/boardList.css">
 	</head>
@@ -101,7 +106,7 @@
 					</ul>
 					
 					<ul class = "buttons">
-						<li><button onclick="location.href='./boardForm.php?mode=0'">글쓰기</button></li>
+						<li><button class="btn btn-primary" onclick="location.href='./boardForm.php?mode=0'">글쓰기</button></li>
                     </ul>
 				</div>
 			</div>

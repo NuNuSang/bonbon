@@ -45,7 +45,7 @@
             </li>
             <li id="textarea">
                 <textarea name="content"></textarea>
-                <input type="submit" value="등록하기">
+                <input type="submit" class="btn btn-primary" value="등록하기">
             </li>
 
         </ul>

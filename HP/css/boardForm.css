@@ -4,9 +4,10 @@
 }
 
 #writeBoard h3 {
+    color: #575347;
     margin-top: 30px;
     padding: 10px;
-    border-bottom: solid 2px #516e7f;
+    border-bottom: solid 2px #7e4a35;
     font-size: 20px;
 }
 
@@ -23,18 +24,22 @@
 }
 
 #writePost li {
-    border-bottom: solid 1px #dddddd;
+    border-bottom: solid 1px #dec8cb;
     padding: 10px;
 }
 
 #writePost input {
     width: 500px;
     height: 25px;
+    border-color: #dec8cb;
+    border-radius: 3px;
 }
 
 #writePost textarea {
     width: 500px;
     height: 150px;
+    border-color: #dec8cb;
+    border-radius: 3px;
 }
 
 #writePost #textarea {
@@ -58,3 +63,5 @@
     height: 30px;
 }
 
+.btn { background-color: #dfb7b7; border: 0; outline: 0; color: #ffffff; transition: all 0.9s, color 0.3;}
+.btn:hover{ background-color: #e0a4a4;  border: none; color: #ffffff; } 
